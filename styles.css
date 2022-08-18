@@ -9,6 +9,7 @@
 
 body {
   height: 2000px;
+  position: relative;
 }
 
 header {
@@ -63,4 +64,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
